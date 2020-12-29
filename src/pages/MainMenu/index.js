@@ -41,7 +41,7 @@ const MainMenu = () => {
       console.log(Task);
     } catch (e) {
       // read error
-      console.log('err.');
+      console.log('err.' + e);
     }
   };
 
