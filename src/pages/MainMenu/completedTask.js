@@ -83,23 +83,7 @@ const completedTask = () => {
       }
     });
   };
-  const markAsCompleted = (index) => {
-    let task = [...taskData.taskData];
-    task[index].active = false;
-    changeTaskDetail(task);
-    setIsModalActive(false);
-    storeData(task);
-  };
-  const markSelectedAsCompleted = () => {
-    let task = [...taskData.taskData];
-    task.forEach((item, index) => {
-      if (item.selected) {
-        item.active = false;
-      }
-    });
-    changeTaskDetail(task);
-    storeData(task);
-  };
+
   const selectedTask = (index, newValue) => {
     let task = [...taskData.taskData];
     task[index].selected = newValue;
