@@ -1,0 +1,7 @@
+{
+    "prettier.tabWidth": 1,
+    "prettier.singleQuote": true,
+    "prettier.bracketSpacing": false,
+    "prettier.endOfLine": "auto",
+    "eslint.format.enable": true
+}
